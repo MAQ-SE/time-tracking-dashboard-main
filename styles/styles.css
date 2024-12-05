@@ -1,0 +1,75 @@
+body {
+    background-color: #0d1117;
+    font-family: Arial, sans-serif;
+  }
+  .profile-card {
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .profile-info {
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 15px;
+  }
+  
+  .profile-info img {
+    margin-bottom: 1rem;
+  }
+  
+  .report-text {
+    color: hsl(236, 100%, 87%);
+    margin-bottom: 0.25rem;
+  }
+  
+  .timeframe-section {
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+  }
+  
+  .timeframe-buttons .btn-link {
+    text-decoration: none;
+    padding: 0.5rem 0;
+    transition: color 0.3s ease;
+  }
+  
+  .timeframe-buttons .btn-link:hover {
+    color: hsl(236, 100%, 87%) !important;
+  }
+
+
+  .body {
+  background-color: #0d1117;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+#activity-cards {
+  margin-top: 20px;
+}
+
+.card {
+  margin-bottom: 15px;
+  border: none;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-body {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.previous {
+  font-size: 0.9rem;
+  color: #d1d5db;
+}
