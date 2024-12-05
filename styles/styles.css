@@ -1,75 +1,71 @@
-body {
-    background-color: #0d1117;
-    font-family: Arial, sans-serif;
-  }
-  .profile-card {
+/* Card general styles */
+.activity-card {
+    background-color: #1c1f4a; /* Dark background for the card */
     border-radius: 15px;
+    color: white;
+    position: relative;
     overflow: hidden;
+    margin-bottom: 20px;
   }
   
-  .profile-info {
-    background-color: hsl(246, 80%, 60%);
-    border-radius: 15px;
+  .activity-card .card-header {
+    height: 60px;
+    width: 100%;
+    background-color: #fff; /* Default color, will be overridden */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
   }
   
-  .profile-info img {
-    margin-bottom: 1rem;
+  /* Inner frame styles */
+  .activity-card .inner-frame {
+    background-color: #252b46; /* Dark bluish frame color */
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: -10px; /* Pull it slightly into the header for effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
   }
   
-  .report-text {
-    color: hsl(236, 100%, 87%);
-    margin-bottom: 0.25rem;
+  .activity-card .card-body {
+    text-align: left;
   }
   
-  .timeframe-section {
-    background-color: hsl(235, 46%, 20%);
-    border-radius: 15px;
+  .activity-card .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
   }
   
-  .timeframe-buttons .btn-link {
-    text-decoration: none;
-    padding: 0.5rem 0;
-    transition: color 0.3s ease;
+  .activity-card .current {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
   }
   
-  .timeframe-buttons .btn-link:hover {
-    color: hsl(236, 100%, 87%) !important;
+  .activity-card .previous {
+    color: #aaa;
+    font-size: 0.9rem;
   }
-
-
-  .body {
-  background-color: #0d1117;
-  color: #ffffff;
-  font-family: Arial, sans-serif;
-}
-
-#activity-cards {
-  margin-top: 20px;
-}
-
-.card {
-  margin-bottom: 15px;
-  border: none;
-  text-align: center;
-  transition: transform 0.2s ease;
-}
-
-.card:hover {
-  transform: scale(1.05);
-}
-
-.card-title {
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.card-body {
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-.previous {
-  font-size: 0.9rem;
-  color: #d1d5db;
-}
+  
+  /* Activity-specific header colors */
+  .activity-card.work .card-header {
+    background-color: #ff8b64; /* Orange for Work */
+  }
+  
+  .activity-card.play .card-header {
+    background-color: #56c2e6; /* Blue for Play */
+  }
+  
+  .activity-card.study .card-header {
+    background-color: #ff5c7c; /* Pink for Study */
+  }
+  
+  .activity-card.exercise .card-header {
+    background-color: #4acf81; /* Green for Exercise */
+  }
+  
+  .activity-card.social .card-header {
+    background-color: #7536d3; /* Purple for Social */
+  }
+  
+  .activity-card.self-care .card-header {
+    background-color: #f1c65b; /* Yellow for Self Care */
+  }
