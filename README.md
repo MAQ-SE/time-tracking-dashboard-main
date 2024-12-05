@@ -1,3 +1,9 @@
+Peer Review: Andrew Sayasing
+Everything seems to be in order. Js works and looks good. Design is all fleshed out. Maybe some tweaking with the fonts and colors, but at the time of writing, you're still working on it. All in all good job
+
+
+
+
 # Frontend Mentor - Time tracking dashboard
 
 ![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.jpg)
