@@ -1,4 +1,10 @@
+Mason Quilon
+12/05/24
+Time Tracking Dashboard
+Create a time tracking dashboard with without hardcoding on the html side.
+
 Peer Review: Andrew Sayasing
+Peer review:
 Everything seems to be in order. Js works and looks good. Design is all fleshed out. Maybe some tweaking with the fonts and colors, but at the time of writing, you're still working on it. All in all good job
 
 
